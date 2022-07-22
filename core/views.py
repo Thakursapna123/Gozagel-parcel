@@ -1,7 +1,7 @@
 from django.views.generic import TemplateView
 
 
-
+# home function
 class HomeView(TemplateView):
     template_name = "index.html"
 
